@@ -1,0 +1,10 @@
+ltme_node:
+  ros__parameters:
+    # LTME-02A: 270 degree FoV, RJ45, default 192.168.10.160:2105
+    device_model: LTME-02A
+    device_address: 192.168.10.160
+    frame_id: litra_link
+    invert_frame: false
+    range_min: 0.05
+    range_max: 20.0
+    shadow_filter_strength: 15
